@@ -1,0 +1,6 @@
+framework module Pods_RxDamo {
+  umbrella header "Pods-RxDamo-umbrella.h"
+
+  export *
+  module * { export * }
+}
