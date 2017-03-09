@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '57729CDA7F761650D498D3F614DA15BB'
+               BlueprintIdentifier = '84EE42BA63071426C68C85CD1E5402C4'
                BlueprintName = 'Pods-RxDamo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-RxDamo.framework'>
