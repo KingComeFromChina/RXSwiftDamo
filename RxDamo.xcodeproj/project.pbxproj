@@ -48,6 +48,7 @@
 		9B52EB091E691CBE006F0357 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B52EB081E691CBE006F0357 /* AFNetworking.framework */; };
 		9B596C9A1E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B596C991E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift */; };
 		9B596C9C1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B596C9B1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift */; };
+		9B8C01411E764353007F90BD /* WLNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C01401E764353007F90BD /* WLNetWorkTool.swift */; };
 		9BD5907C1E6D003900A7269C /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5907B1E6D003900A7269C /* Dependencies.swift */; };
 		9BD5907E1E6D01B900A7269C /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5907D1E6D01B900A7269C /* Wireframe.swift */; };
 		9BD590801E6D087A00A7269C /* ReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5907F1E6D087A00A7269C /* ReachabilityService.swift */; };
@@ -121,6 +122,7 @@
 		9B52EB081E691CBE006F0357 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		9B596C991E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
 		9B596C9B1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionReusableView.swift; sourceTree = "<group>"; };
+		9B8C01401E764353007F90BD /* WLNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLNetWorkTool.swift; sourceTree = "<group>"; };
 		9BD5907B1E6D003900A7269C /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		9BD5907D1E6D01B900A7269C /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		9BD5907F1E6D087A00A7269C /* ReachabilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityService.swift; sourceTree = "<group>"; };
@@ -501,6 +503,7 @@
 			isa = PBXGroup;
 			children = (
 				9B4E458E1E6EB5FB00E0D454 /* Image.swift */,
+				9B8C01401E764353007F90BD /* WLNetWorkTool.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 				9BD590821E6D0C1200A7269C /* Reachability.swift in Sources */,
 				9B4E45761E6D5F2500E0D454 /* UIImage+Extension.swift in Sources */,
 				9B4E45661E6D391900E0D454 /* Tool.swift in Sources */,
+				9B8C01411E764353007F90BD /* WLNetWorkTool.swift in Sources */,
 				9BD590841E6D2C0900A7269C /* ActivityIndicator.swift in Sources */,
 				9B4E45851E6E5EEE00E0D454 /* cycleView.swift in Sources */,
 				9B52EB021E691899006F0357 /* MeViewController.swift in Sources */,

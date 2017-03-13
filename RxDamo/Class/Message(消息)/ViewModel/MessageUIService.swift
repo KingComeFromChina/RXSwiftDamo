@@ -13,7 +13,7 @@ class MessageUIService : NSObject,UICollectionViewDelegateFlowLayout,UICollectio
 //
    public var messageViewController  : MessageViewController!
    public var messageUIViewModel     : MessageViewModel!
-   public var dataArray              : NSMutableArray!
+   
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
@@ -22,6 +22,7 @@ class MessageUIService : NSObject,UICollectionViewDelegateFlowLayout,UICollectio
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if section == 1 {
            // return (self.dataArray?.count)!
+            //return messageViewController.dataArray.count
             return 10
         }
         
@@ -33,10 +34,18 @@ class MessageUIService : NSObject,UICollectionViewDelegateFlowLayout,UICollectio
         
         if indexPath.section == 0 {
             let cell :CycleCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CycleCollectionViewCell", for: indexPath) as! CycleCollectionViewCell
+            
            newCell = cell
         }else if indexPath.section == 1{
         
             let cell : GoodsCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "GoodsCollectionViewCell", for: indexPath) as! GoodsCollectionViewCell
+            var model = MessageModel()
+//            model = messageViewController.dataArray[indexPath.row] as Any as! MessageModel
+//            cell.goodsNameLabel.text = model.goodsName
+//            cell.goodsPriceLabel.text = "¥" + model.goodsPrice
+//            let url = URL.init(string: model.goodsImageStr)
+//            
+//            cell.goodsImageView.sd_setImage(with: url)
             newCell = cell
             
         }

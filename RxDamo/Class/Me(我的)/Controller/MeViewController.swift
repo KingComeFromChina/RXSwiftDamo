@@ -10,6 +10,8 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import ReactiveSwift
+import Result
 
 let minimumPhoneNumberLength = 11
 let minimumPassWordLength = 8
@@ -117,7 +119,9 @@ class MeViewController: UIViewController,UITextFieldDelegate {
         
         
         
+        
     }
+    
     
     func showAlert(){
         let alertView = UIAlertView(

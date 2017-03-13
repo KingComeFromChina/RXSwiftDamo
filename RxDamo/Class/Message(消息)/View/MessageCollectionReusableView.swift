@@ -27,7 +27,7 @@ class MessageCollectionReusableView: UICollectionReusableView {
         
         let WW = CGFloat(self.frame.size.height - 10)
         
-        self.categoryNameLabel = UILabel.init(frame: CGRect.init(x: WLWindowWidth / 2 - 30 + WW / 2, y: 0, width: 60, height: self.frame.size.height))
+        self.categoryNameLabel = UILabel.init(frame: CGRect.init(x: WLWindowWidth / 2 - 30 + WW / 2, y: 0, width: 100, height: self.frame.size.height))
         self.categoryNameLabel.textColor = UIColor.red
         self.categoryNameLabel.text = "热卖单品"
         self.categoryNameLabel.font = UIFont.systemFont(ofSize: 15)

@@ -8,6 +8,19 @@
 
 import UIKit
 
-class MessageModel: NSObject {
+class MessageModel :NSObject {
 
+//    let goodsName  = ""
+//    let goodsPrice : String! = nil
+//    let goodsImage : UIImage!
+//
+//    init(goodsName : String,goodsPrice : String, goodsImage : UIImage) {
+//        self.goodsName = goodsName
+//        self.goodsPrice = goodsPrice
+//        self.goodsImage = goodsImage
+//    }
+    var  goodsName = String()
+    var goodsPrice = String()
+    var  goodsImageStr = String()
+    
 }

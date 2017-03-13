@@ -64,7 +64,7 @@ class GoodsCollectionViewCell: UICollectionViewCell {
         }
         
         self.addCartButton = UIButton()
-        let image = UIImage (named: "compose_addbutton_background_highlighted")
+        let image = UIImage (named: "plusbutton_icon")
         self.addCartButton.setImage(image?.reSizeImage(reSize: CGSize.init(width: 30, height: 30)), for: .normal)
         self.addCartButton.addTarget(self, action: #selector(GoodsCollectionViewCell.addCartBtnClick), for: .touchUpInside)
         self.contentView.addSubview(self.addCartButton)

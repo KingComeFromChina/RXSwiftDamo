@@ -7,7 +7,36 @@
 //
 
 import UIKit
+import ReactiveCocoa
+import ReactiveSwift
+import Result
+import enum Result.NoError
 
-class MessageViewModel: NSObject {
 
-}
+
+let goodsUrl = "http://www.jiuyunda.net:90/api/v1/product/list_by_sales?id=56c45924c2fb4e2050000022"
+
+class MessageViewModel:NSObject {
+
+   //     var cycleSignal      : Signal<Array<Any>,NoError>
+//     var goodsSignal      : Signal<Array<Any>, NoError>
+    
+
+//     init( cyclesignal : Signal<Array<Any>, NoError> , goodssignal : Signal<Array<Any>, NoError> ) {
+////        super.init()
+//        self.cycleSignal = cyclesignal
+//        self.goodsSignal = goodssignal
+//        //self.creatSignal()
+//    
+//        
+//    }
+    
+    
+
+                
+    }
+    
+
+       
+   
+
