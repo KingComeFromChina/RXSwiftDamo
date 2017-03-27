@@ -23,7 +23,10 @@ class MessageUIService : NSObject,UICollectionViewDelegateFlowLayout,UICollectio
         if section == 1 {
            // return (self.dataArray?.count)!
             //return messageViewController.dataArray.count
-            return 10
+            if messageViewController.dataArray.count > 0 {
+               return messageViewController.dataArray.count
+            }
+
         }
         
         return 1
@@ -40,12 +43,16 @@ class MessageUIService : NSObject,UICollectionViewDelegateFlowLayout,UICollectio
         
             let cell : GoodsCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "GoodsCollectionViewCell", for: indexPath) as! GoodsCollectionViewCell
             var model = MessageModel()
-//            model = messageViewController.dataArray[indexPath.row] as Any as! MessageModel
-//            cell.goodsNameLabel.text = model.goodsName
-//            cell.goodsPriceLabel.text = "¥" + model.goodsPrice
-//            let url = URL.init(string: model.goodsImageStr)
-//            
-//            cell.goodsImageView.sd_setImage(with: url)
+            print("看看数组",messageViewController.dataArray)
+            if messageViewController.dataArray.count > 0 {
+                 model = messageViewController.dataArray[indexPath.row]
+            }
+           
+            cell.goodsNameLabel.text = model.goodsName
+            cell.goodsPriceLabel.text = "¥" + model.goodsPrice
+            let url = URL.init(string: model.goodsImageStr)
+            
+            cell.goodsImageView.sd_setImage(with: url)
             newCell = cell
             
         }

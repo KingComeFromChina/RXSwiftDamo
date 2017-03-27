@@ -15,13 +15,15 @@ import enum Result.NoError
 
 class MessageViewController: UIViewController {
     
-    var imageArray : [Any]!
+    var imageArray : [String]!
   
 //    var dataArray : [Any]!
-     var dataArray  :  [Any]!
+     var dataArray  =  [MessageModel]()
     var messageViewModel : MessageViewModel!
     var messageUIService : MessageUIService!
     var messageCollectionView : UICollectionView!
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +31,7 @@ class MessageViewController: UIViewController {
         self.startServices()
         self.initData()
         self.creatCollectionView()
-        self.messageCollectionView.reloadData()
+        //self.messageCollectionView.reloadData()
         // Do any additional setup after loading the view.
               
     }
@@ -79,25 +81,25 @@ class MessageViewController: UIViewController {
 
                 let  resultDict = dictArray[i]
                 let  goodsName : String = resultDict["title"] as! String
-                let  goodsPrice :String = resultDict["price"].debugDescription
+                let  goodsPrice :String = "\(resultDict["price"]!)"
                 let  goodsImageStr :String  = resultDict["avatar_url"] as! String
                 model.goodsPrice = goodsPrice
                 model.goodsName = goodsName
                 model.goodsImageStr = goodsImageStr
-                //self.dataArray.append(model)
+                self.dataArray.append(model)
                 //if model.goodsPrice == nil{
-                if case goodsPrice.isEmpty = false {
-                
-                    model.goodsPrice = goodsPrice
-                }
-                self.dataArray.insert(model, at: a-1)
+//                if case goodsPrice.isEmpty = false {
+//                
+//                    model.goodsPrice = goodsPrice
+//                }
+//                self.dataArray.insert(model, at: a-1)
                 //}
             }
             if self.dataArray.count > 0{
             
                 self.messageCollectionView.reloadData()
             }
-            print("看看数组",self.dataArray)
+            
             
             
         })  {

@@ -48,6 +48,12 @@
 		9B52EB091E691CBE006F0357 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B52EB081E691CBE006F0357 /* AFNetworking.framework */; };
 		9B596C9A1E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B596C991E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift */; };
 		9B596C9C1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B596C9B1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift */; };
+		9B6B63BF1E7787E00013272E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63B91E7787E00013272E /* 1.jpg */; };
+		9B6B63C01E7787E00013272E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63BA1E7787E00013272E /* 2.jpg */; };
+		9B6B63C11E7787E00013272E /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63BB1E7787E00013272E /* 3.jpeg */; };
+		9B6B63C21E7787E00013272E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63BC1E7787E00013272E /* 4.jpg */; };
+		9B6B63C31E7787E00013272E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63BD1E7787E00013272E /* 5.jpg */; };
+		9B6B63C41E7787E00013272E /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6B63BE1E7787E00013272E /* 7.jpeg */; };
 		9B8C01411E764353007F90BD /* WLNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C01401E764353007F90BD /* WLNetWorkTool.swift */; };
 		9BD5907C1E6D003900A7269C /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5907B1E6D003900A7269C /* Dependencies.swift */; };
 		9BD5907E1E6D01B900A7269C /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5907D1E6D01B900A7269C /* Wireframe.swift */; };
@@ -122,6 +128,12 @@
 		9B52EB081E691CBE006F0357 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		9B596C991E6F9F5B007F9FB5 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
 		9B596C9B1E6FAF03007F9FB5 /* MessageCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionReusableView.swift; sourceTree = "<group>"; };
+		9B6B63B91E7787E00013272E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
+		9B6B63BA1E7787E00013272E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../2.jpg; sourceTree = "<group>"; };
+		9B6B63BB1E7787E00013272E /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = ../../../3.jpeg; sourceTree = "<group>"; };
+		9B6B63BC1E7787E00013272E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../4.jpg; sourceTree = "<group>"; };
+		9B6B63BD1E7787E00013272E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../5.jpg; sourceTree = "<group>"; };
+		9B6B63BE1E7787E00013272E /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = ../../../7.jpeg; sourceTree = "<group>"; };
 		9B8C01401E764353007F90BD /* WLNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLNetWorkTool.swift; sourceTree = "<group>"; };
 		9BD5907B1E6D003900A7269C /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		9BD5907D1E6D01B900A7269C /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
@@ -504,6 +516,12 @@
 			children = (
 				9B4E458E1E6EB5FB00E0D454 /* Image.swift */,
 				9B8C01401E764353007F90BD /* WLNetWorkTool.swift */,
+				9B6B63B91E7787E00013272E /* 1.jpg */,
+				9B6B63BA1E7787E00013272E /* 2.jpg */,
+				9B6B63BB1E7787E00013272E /* 3.jpeg */,
+				9B6B63BC1E7787E00013272E /* 4.jpg */,
+				9B6B63BD1E7787E00013272E /* 5.jpg */,
+				9B6B63BE1E7787E00013272E /* 7.jpeg */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -638,11 +656,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B6B63C41E7787E00013272E /* 7.jpeg in Resources */,
+				9B6B63C21E7787E00013272E /* 4.jpg in Resources */,
 				9B52EAD81E69188B006F0357 /* Assets.xcassets in Resources */,
 				9B4E458B1E6E8C6200E0D454 /* third.jpg in Resources */,
 				9B52EAB41E691871006F0357 /* LaunchScreen.storyboard in Resources */,
+				9B6B63C01E7787E00013272E /* 2.jpg in Resources */,
 				9B4E457A1E6D5FF000E0D454 /* ImageCollectionViewCell.xib in Resources */,
+				9B6B63C11E7787E00013272E /* 3.jpeg in Resources */,
 				9B4E456E1E6D54CF00E0D454 /* SearchTableViewCell.xib in Resources */,
+				9B6B63BF1E7787E00013272E /* 1.jpg in Resources */,
+				9B6B63C31E7787E00013272E /* 5.jpg in Resources */,
 				9B4E45891E6E8C6200E0D454 /* first.jpg in Resources */,
 				9B4E458A1E6E8C6200E0D454 /* second.jpg in Resources */,
 			);
